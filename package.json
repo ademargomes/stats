@@ -1,0 +1,27 @@
+{
+  "name": "ademargomes",
+  "version": "1.0.0",
+  "description": "My Own Template",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Basic",
+    "starting",
+    "point",
+    "for",
+    "a",
+    "new",
+    "test",
+    "website"
+  ],
+  "author": "Ademar Gomes",
+  "license": "ISC"
+}
