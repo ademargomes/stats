@@ -1,7 +1,48 @@
 body {
   padding-top: 50px;
 }
+
 .settemplate {
   padding: 40px 15px;
   text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #233354;
+}
+
+
+.outer {
+  border: 1px solid #DEDCDB;
+}
+
+.inner {
+  background: #F1F0F0;
+  padding: 30px;
+  margin: 10px;
+}
+
+.inner ul li {
+  padding: 10px 0;
+}
+
+.settemplate h1 {
+  text-align: center;
+  font-size: 31px;
+}
+
+.list_no li {
+  list-style-type: none;
+}
+
+.list_no li a {
+  color: #233354;
+  text-decoration: none;
 }
