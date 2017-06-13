@@ -1,89 +1,86 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<html lang="en">
 
-    <title>My Bootstrap Page</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/site.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  </head>
+  <title>My Bootstrap Page</title>
 
-  <body>
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/site.css" rel="stylesheet">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>-->
-          <a class="navbar-brand" href="#">Stats Page</a>
-        </div>
-        <!--<div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>-->
-        <!--/.nav-collapse -->
-      </div>
-    </nav>
+</head>
 
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-
-      <div class="settemplate">
-        <h1>Stats Page Test</h1>
-        <p>This is your chalenge, to connect to given API and display the data returned based on user interaction.</p>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Stats Page</a>
       </div>
-        <div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="settemplate">
+      <h1>Stats Page Test</h1>
+      <p>This is your challenge, to connect to given API and display the data returned based on user interaction.</p>
+    </div>
+    <div>
+      <ul>
+        <li>
+          Please have a look at this experimental Rest API endpoints: <br><br>
+          <span>1) http://semikolsf1.azurewebsites.net/api/Season/getraces/2016</span> <br>
+          <span>2) http://semikolsf1.azurewebsites.net/api/Season/getdriverstandings/2016</span><br><br>
+        </li>
+        <li>
+          The first one will return a list of races per season and the second one the divers standing for the given season. The season
+          (year) is your parameter.
+        </li>
+        <li>
+          Your task is to:
           <ul>
-            <li>
-              Please have a look at this experimental Rest API endpoints: <br/><br/>
-              <span>1) http://semikolsf1.azurewebsites.net/api/Season/getraces/2016</span> <br/>
-              <span>2) http://semikolsf1.azurewebsites.net/api/Season/getdriverstandings/2016</span><br/><br/>
-            </li>
-            <li>
-              The first one will return a list of races per season and the second one the divers standing for the given season. The season (year) is your parameter.
-            </li>
-            <li>
-              Your task is to:
-                <ul>
-                  <li>Clone this repository (Dont fork it and dont commit to it!) </li>
-                  <li>Create an one page website to display F1 data from API's </li>
-                  <li>Display a list of seasons from 1950 to 2017 which the user can select one season only.</li>
-                  <li>Based on user selection, retrieve and display race and standings data from the API</li>
-                </ul>
-            </li>
-            <li>
-              Considerations:
-                <ul>
-                  <li>Feel free to use any frontend technology (CSS and JS frameworks, task managers and optmization tool)</li>
-                  <li>Consider this as a piece of work that will be tested and deplyed to production.</li>
-                  <li>You can continue using this page and chagne as necessary or create a complete new one, its entirely up to you.</li>
-                  <li>When you are ready, please send back a git patch attached containing commits (not just working files) and do NOT fork the repo. </li>
-                  <li>Lastly, this is not only a coding test but we want to see how you aproach your development, code style, git etc. That is the opportunity to show your skils.</li>
-                  
-                </ul>
-            </li>
+            <li>Clone this repository (Don't fork it and don't commit to it!) </li>
+            <li>Create an one page website to display F1 data from API's </li>
+            <li>Display a list of seasons from 1950 to 2017 which the user can select one season only.</li>
+            <li>Based on user selection, retrieve and display race and standings data from the API</li>
           </ul>
-        </div>
+        </li>
+        <li>
+          Considerations:
+          <ul>
+            <li>Feel free to use any frontend technology (CSS and JS frameworks, task managers and optimization tools)</li>
+            <li>Consider this as a piece of work that will be tested and deployed to production.</li>
+            <li>You can continue using this page and change as necessary or create a complete new one, its entirely up to you.</li>
+            <li>When you are ready, please send back a git patch attached containing commits (not just working files) and do
+              NOT fork the repo. </li>
+            <li>Lastly, this is not only a coding test but we want to see how you approach your development, code style, git
+              etc. That is the opportunity to show your skills.</li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
 
 
-    </div><!-- /.container -->
+  </div>
+  <!-- /.container -->
 
 
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script>window.jQuery</script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	  <script src="/node_modules/angular/angular.js"></script>
-	
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script>
+    window.jQuery
+  </script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/node_modules/angular/angular.js"></script>
 
-</body></html>
+
+</body>
+
+</html>
